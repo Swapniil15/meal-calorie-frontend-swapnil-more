@@ -101,7 +101,6 @@ export function MealForm() {
                 id="servings"
                 name="servings"
                 type="number"
-                min={1}
                 value={servings}
                 onChange={(e) => setServings(Number(e.target.value))}
                 required
