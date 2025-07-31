@@ -34,8 +34,16 @@ cd meal-calorie-frontend
 ```bash
 npm install
 ```
+### 3. Create .env File
+Create a .env file in the root directory:
 
-### 3. Start the App
+
+```bash
+VITE_API_URL="http://localhost:8000"
+```
+
+
+### 4. Start the App
 
 ```bash
 npm start
@@ -44,12 +52,7 @@ npm start
 The frontend app will start on: [http://localhost:3000](http://localhost:3000)
 
 > ✅ Make sure the backend is running at [http://localhost:8000](http://localhost:8000)
-> Create `.env` File
 
-Create a `.env` file in the root directory:
-
-```env
- VITE_API_URL="http://localhost:8000"
 ---
 
 ## ⚙️ Features
